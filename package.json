@@ -1,0 +1,23 @@
+{
+  "name": "vite-template-solid",
+  "version": "1.0.0",
+  "description": "A demo SolidJS app that's visualizing the workings of an algorithm for converting arabic to roman numbers.",
+  "author": "Ramachandra Anirudh Vemulapalli",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.1.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@motionone/solid": "^10.15.5",
+    "@solid-primitives/keyed": "^1.1.8",
+    "sass": "^1.58.3",
+    "solid-js": "^1.6.10"
+  }
+}
